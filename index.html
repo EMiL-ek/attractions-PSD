@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <title> Top Attractions </title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="main-heading">Top Attractions</h1>
+            <nav class="main-nav">
+                <div class="hamburger">
+                    <div class="ham ham1"></div>
+                    <div class="ham ham2"></div>
+                    <div class="ham ham3"></div>
+                </div>
+                <ul class="top-menu">
+                    <li>xddd</li>
+                    <li>xddd</li>
+                    <li>xddd</li>
+                    <li>xddd</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <section class="attraction attraction1">
+                <article class="hidden hidden1">
+                    <h2 class="main-article-heading">Lorem Ipsum</h2>
+                    <h3 class="article-heading">Lorem Ipsum dolor</h3>
+                </article>
+            </section>
+            <section class="attraction attraction2">
+                 <article class="hidden hidden2">
+                    <h2 class="main-article-heading">Lorem Ipsum</h2>
+                    <h3 class="article-heading">Lorem Ipsum dolor</h3>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="menu">All Cities</div>
+            <ul class="page-nav">
+                <li class="list-item1"></li>
+                <li class="list-item2"></li>
+                <li class="list-item3"></li>
+            </ul>
+            <div class="main-menu">Next</div>
+        </footer>
+    </div>
+    <script>
+		const button = document.querySelector('.hamburger');
+		button.addEventListener('click', function() {
+			document.querySelector('.top-menu').classList.toggle('top-menuClick');
+			document.querySelector('.ham1').classList.toggle('ham1Click');
+            document.querySelector('.ham2').classList.toggle('ham2Click');
+            document.querySelector('.ham3').classList.toggle('ham3Click');
+        });
+	</script>
+</body>
+</html>
